@@ -6,7 +6,7 @@ on:
 
 jobs:
   build-and-deploy:
-    runs-on: ubuntu-latest =
+    runs-on: ubuntu-latest
     steps:
       # Bước 1: Lấy code từ repo về máy ảo
       - name: Checkout code
