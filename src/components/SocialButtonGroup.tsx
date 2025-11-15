@@ -1,7 +1,6 @@
 import React from "react";
 import SocialButton from "./SocialButton";
 
-// 1. Import các file SVG từ thư mục 'assets' của bạn
 import { ReactComponent as FacebookIcon } from "../assets/facebook-svgrepo-com.svg";
 import { ReactComponent as GithubIcon } from "../assets/github-142-svgrepo-com.svg";
 import { ReactComponent as GmailIcon } from "../assets/gmail-old-svgrepo-com.svg";
@@ -9,9 +8,7 @@ import { ReactComponent as LinkedinIcon } from "../assets/linkedin-svgrepo-com.s
 
 const SocialButtonGroup: React.FC = () => {
   return (
-    <div className="grid grid-cols-2 gap-6">
-      {/* 2. Dùng các icon đã import như component bình thường */}
-
+    <div className="flex grid-cols-2 gap-20">
       <SocialButton
         icon={<GithubIcon />}
         href="https://github.com/DKhangggg"

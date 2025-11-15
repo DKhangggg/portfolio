@@ -26,14 +26,7 @@ export function AboutMe() {
       </h1>
 
       {/* 2. DIV  */}
-      <div
-        className="
-        flex flex-col lg:flex-row 
-        items-center lg:items-start 
-        gap-12 mt-12 px-6          
-        max-w-7xl                   
-      "
-      >
+      <div className="flex flex-col lg:flex-row justify-center lg:items-start gap-20 lg:gap-16 mt-12 px-6">
         {/* MỤC 1:  */}
         <GradientCard className="min-w-[300px] lg:min-w-[350px]">
           <h3 className="text-2xl font-bold mb-4 text-white">Personal Info</h3>
@@ -84,11 +77,9 @@ export function AboutMe() {
             revealDirection="start"
           />
         </GradientCard>
-
-        {/*  SOCIAL BUTTONS */}
-        <div className="lg:pt-2">
-          <SocialButtonGroup />
-        </div>
+      </div>
+      <div className="lg:pt-2">
+        <SocialButtonGroup />
       </div>
     </section>
   );

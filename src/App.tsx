@@ -1,3 +1,4 @@
+import GlobalStyle from "./GlobalStyle";
 import { Navbar } from "./components/Navbar";
 import { HeroSection } from "./sections/HeroSection";
 import DarkVeil from "./components/DarkVeil";
@@ -9,6 +10,7 @@ import { CourseworkCertifications } from "./sections/CourseworkCertifications";
 function App() {
   return (
     <div className="min-h-screen text-white">
+      <GlobalStyle />
       <DarkVeil
         className="fixed top-0 left-0 -z-10"
         noiseIntensity={0.05}
@@ -16,6 +18,7 @@ function App() {
         warpAmount={0.1}
         speed={0.3}
       />
+
       <Navbar />
       <main>
         <HeroSection />

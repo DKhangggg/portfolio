@@ -31,7 +31,7 @@ const StyledWrapper = styled.div`
     background: linear-gradient(135deg, #0d1120 0%, #222831 43%, #0d1120 100%);
     padding: 1.5rem;
     border-radius: 1.2rem;
-    width: 500px;
+    width: 400px;
     height: 600px;
     box-sizing: border-box;
   }
