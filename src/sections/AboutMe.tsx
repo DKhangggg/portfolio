@@ -12,10 +12,9 @@ export function AboutMe() {
   return (
     <section
       id="about-me"
-      // Thêm padding dọc (py-24) cho section
       className="min-h-screen flex flex-col justify-center items-center py-24"
     >
-      {/* 1. TIÊU ĐỀ (Vẫn ở trên cùng) */}
+      {/* 1. TIÊU ĐỀ  */}
       <h1 className="text-6xl md:text-6xl font-bold text-center mb-12">
         <BlurText
           text="ABOUT MYSELF"
@@ -26,26 +25,24 @@ export function AboutMe() {
         />
       </h1>
 
-      {/* 2. DIV BỌC MỚI - DÙNG ĐỂ XẾP NGANG 3 MỤC */}
+      {/* 2. DIV  */}
       <div
         className="
-        flex flex-col lg:flex-row  /* Xếp dọc trên mobile, xếp ngang (row) trên desktop */
-        items-center lg:items-start /* Căn giữa trên mobile, căn lề trên (start) trên desktop */
-        gap-12 mt-12 px-6          /* Khoảng cách giữa các mục và padding ngang */
-        max-w-7xl                   /* Giới hạn chiều rộng tối đa */
+        flex flex-col lg:flex-row 
+        items-center lg:items-start 
+        gap-12 mt-12 px-6          
+        max-w-7xl                   
       "
       >
-        {/* MỤC 1: CARD THÔNG TIN CÁ NHÂN */}
+        {/* MỤC 1:  */}
         <GradientCard className="min-w-[300px] lg:min-w-[350px]">
-          {/* Giả sử GradientCard có nền tối, nên ta dùng chữ sáng */}
           <h3 className="text-2xl font-bold mb-4 text-white">Personal Info</h3>
           <ul className="space-y-3 text-lg">
-            {/* Bạn tự điền năm sinh vào đây nhé */}
             <li>
               <strong>Name:</strong> Lê Duy Khang
             </li>
             <li>
-              <strong>Born:</strong> [Năm sinh của bạn]
+              <strong>Born:</strong> 2004
             </li>
             <li>
               <strong>School:</strong> FPT University
@@ -77,7 +74,7 @@ export function AboutMe() {
           </ul>
         </GradientCard>
 
-        {/* MỤC 2: CARD ABOUT ME (Đã có) */}
+        {/* CARD ABOUT ME  */}
         <GradientCard className="max-w-2xl">
           <DecryptedText
             speed={200}
@@ -88,7 +85,7 @@ export function AboutMe() {
           />
         </GradientCard>
 
-        {/* MỤC 3: SOCIAL BUTTONS */}
+        {/*  SOCIAL BUTTONS */}
         <div className="lg:pt-2">
           <SocialButtonGroup />
         </div>
