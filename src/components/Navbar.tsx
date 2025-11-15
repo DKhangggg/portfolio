@@ -17,9 +17,9 @@ export function Navbar() {
         <Button onClick={() => handleScroll("skills")}>Skills</Button>
         <Button onClick={() => handleScroll("experience")}>Experience</Button>
         <Button onClick={() => handleScroll("projects")}>Projects</Button>
-        <Button onClick={() => handleScroll("certifications")}>
+        {/* <Button onClick={() => handleScroll("certifications")}>
           Coursework & Certifications
-        </Button>
+        </Button> */}
       </div>
     </header>
   );

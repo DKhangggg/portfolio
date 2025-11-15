@@ -30,7 +30,7 @@ function App() {
 
         <Project />
 
-        <CourseworkCertifications />
+        {/* <CourseworkCertifications /> */}
       </main>
       {/* <Footer /> */}
     </div>

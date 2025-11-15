@@ -47,7 +47,7 @@ export function SkillsTech() {
             <ul>
               <li>
                 <strong>Library:</strong> React, React Native, HTML5, CSS3,
-                JavaScript (ES6+), Bootstrap, TypeScript (basic).
+                JavaScript (ES6+), Bootstrap, TypeScript (basic), nextJS.
               </li>
               <li>
                 <strong>Databasse:</strong> MySQL, SQL Server, PostgreSQL,
@@ -59,6 +59,10 @@ export function SkillsTech() {
               </li>
               <li>
                 <strong>HTTP Client:</strong> Axios, Fetch API.
+              </li>
+              <li>
+                <strong>Component Libraries:</strong> Material-UI, Ant
+                Design,Shadcnui, Tailwind CSS, DaisyUI,chakra-ui.
               </li>
             </ul>
           </SkillCard>
